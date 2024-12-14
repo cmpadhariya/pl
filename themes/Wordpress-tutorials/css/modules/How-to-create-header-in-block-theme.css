@@ -1,0 +1,34 @@
+.custom-section .create-header {
+  margin: 30px 0px;
+}
+.custom-section .create-header ul li {
+  margin: 0px 0px 30px 0px;
+}
+.custom-section .create-header ul li .description {
+  display: flex;
+  align-items: baseline;
+  margin: 20px 0px;
+}
+.custom-section .create-header ul li img {
+  padding: 10px 0px 0px 0px;
+}
+.custom-section .create-header ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .create-header ul li h6 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #5F5E5E;
+  padding-left: 10px;
+}
+.custom-section .create-header ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000;
+  padding: 5px 0px 0px 0px;
+}

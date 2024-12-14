@@ -1,0 +1,61 @@
+.custom-section .option-page {
+  margin: 30px 0px;
+}
+.custom-section .option-page ul li {
+  margin: 10px 0px;
+}
+.custom-section .option-page ul li .description {
+  display: flex;
+  align-items: baseline;
+}
+.custom-section .option-page ul li img {
+  padding: 10px 0px 0px 0px;
+}
+.custom-section .option-page ul li a {
+  padding-top: 10px;
+  display: block;
+}
+.custom-section .option-page ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .option-page ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000;
+  padding-left: 10px;
+}
+.custom-section .option-zigzag {
+  margin: 50px 0px;
+}
+.custom-section .option-zigzag-text h2 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  color: #2F3D40;
+}
+.custom-section .option-zigzag-text p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000;
+  padding: 30px 0px 30px 0px;
+}
+.custom-section .option-zigzag-text a {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #fff;
+  background: #000;
+  padding: 10px 25px;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.custom-section .option-zigzag-text a:hover {
+  background: #0099DD;
+  transition: all 500ms;
+}

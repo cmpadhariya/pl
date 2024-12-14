@@ -1,0 +1,77 @@
+.custom-section{
+    .custom-navbar-steps{
+        margin: 30px 0px;
+        ul{
+            li{
+                margin: 0px 0px 30px 0px;
+                .description{
+                    display: flex;
+                    align-items: baseline;
+                }
+                img{
+                    padding: 10px 0px 0px 0px;
+                }
+                h5{
+                    font-size: 18px;
+                    line-height: 24px;
+                    font-weight: 700;
+                    color: #000;
+                }
+                h6{
+                    font-size: 18px;
+                    line-height: 24px;
+                    font-weight: 700;
+                    color: #5F5E5E; 
+                    padding-left: 10px;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    color: #000;
+                    padding: 5px 0px 0px 0px;
+                }
+            }
+        }
+    }
+    .custom-navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid #000;
+        &__logo{
+            a{
+                img{
+                    width: 100%;
+                    max-width: 150px;
+                }
+            }
+        }
+        &__menu{
+            .menu-header-menu-container{
+                ul{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center; 
+
+                    li{
+                        a{
+                            font-size: 17px;
+                            line-height: 20px;
+                            font-weight: 500;
+                            color: #000;
+                            &:hover{
+                                transition: all 500ms;
+                                color: #48ca95;
+                            }
+                        }
+                    }
+                    li:not(:last-child){
+                        padding: 0px 30px 0px 0px;
+                    }
+                }
+            }
+        }
+    }
+}

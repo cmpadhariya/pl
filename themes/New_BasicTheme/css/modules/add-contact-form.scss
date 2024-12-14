@@ -1,0 +1,81 @@
+.custom-section{
+    .add-contact-form{
+        margin: 30px 0px;
+        ul{
+            li{
+                margin: 10px 0px;
+                .description{
+                    display: flex;
+                    align-items: baseline;
+                }
+                img{
+                    padding: 10px 0px 0px 0px;
+                }
+                h5{
+                    font-size: 18px;
+                    line-height: 24px;
+                    font-weight: 700;
+                    color: #000;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    color: #000;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    .contact-form-demo{
+        margin: 50px 0px;
+
+        .wpcf7-form{
+            p{
+                label{
+                    font-size: 18px;
+                    line-height: 24px;
+                    font-weight: 500;
+                    color: #2F3D40;
+                    width: 100%;
+
+                    span{
+                        input{
+                            font-size: 18px;
+                            line-height: 20px;
+                            font-weight: 400;
+                            color: #5F5E5E;
+                            padding: 15px 10px;
+                            margin: 10px 0px 20px 0px;
+                            border: 1px solid #5F5E5E;
+                            border-radius: 5px;
+                            width: 100%;
+                        }
+                    }
+                }
+                .wpcf7-textarea{
+                    font-size: 18px;
+                    line-height: 20px;
+                    font-weight: 400;
+                    color: #5F5E5E;
+                    padding: 10px 10px;
+                    margin: 10px 0px 20px 0px;
+                    border: 1px solid #5F5E5E;
+                    border-radius: 5px;
+                    width: 100%;
+                }
+                .wpcf7-submit{
+                    font-size: 18px;
+                    line-height: 24px;
+                    font-weight: 500;
+                    color: #fff;
+                    background: #0099DD;
+                    border: none;
+                    outline: none;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

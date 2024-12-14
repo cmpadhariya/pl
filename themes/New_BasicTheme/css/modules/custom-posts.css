@@ -1,0 +1,66 @@
+.custom-section .custom-posts {
+  margin: 30px 0px;
+}
+.custom-section .custom-posts ul li {
+  margin: 10px 0px;
+}
+.custom-section .custom-posts ul li .description {
+  display: flex;
+  align-items: baseline;
+}
+.custom-section .custom-posts ul li img {
+  padding: 10px 0px 0px 0px;
+}
+.custom-section .custom-posts ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .custom-posts ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000;
+  padding-left: 10px;
+}
+.custom-section .custom-postsdemo {
+  margin: 30px 0px;
+}
+.custom-section .custom-postsdemo--box {
+  background: #232323;
+  padding: 60px 30px;
+  height: 367px;
+}
+.custom-section .custom-postsdemo--box a h4 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+}
+.custom-section .custom-postsdemo--box .discription {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  padding: 34px 0px 49px 0px;
+}
+.custom-section .custom-postsdemo--box .knowmore {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000;
+  background: #fff;
+  padding: 15px 35px 15px 35px;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+.custom-section .custom-postsdemo--box .knowmore:hover {
+  background: #e1c8bb;
+  transition: all 500ms;
+}

@@ -1,0 +1,64 @@
+.custom-section .megamenu-with-plugin {
+  margin: 30px 0px; }
+  .custom-section .megamenu-with-plugin ul li {
+    margin: 10px 0px; }
+    .custom-section .megamenu-with-plugin ul li .description {
+      display: flex;
+      align-items: baseline; }
+    .custom-section .megamenu-with-plugin ul li img {
+      padding: 10px 0px 0px 0px; }
+    .custom-section .megamenu-with-plugin ul li a {
+      padding-top: 10px;
+      display: block; }
+    .custom-section .megamenu-with-plugin ul li h5 {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #000; }
+    .custom-section .megamenu-with-plugin ul li p {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #000;
+      padding-left: 10px; }
+.custom-section .megamenu-plugin {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px;
+  margin: 50px 0px;
+  background: #f5f5f5;
+  position: relative; }
+  .custom-section .megamenu-plugin__logo a img {
+    width: 100%;
+    max-width: 150px; }
+  .custom-section .megamenu-plugin__menu .mega-menu-wrap {
+    position: initial !important;
+    background: unset !important; }
+    .custom-section .megamenu-plugin__menu .mega-menu-wrap .mega-menu-horizontal {
+      display: flex !important;
+      align-items: center;
+      position: initial !important; }
+      .custom-section .megamenu-plugin__menu .mega-menu-wrap .mega-menu-horizontal .product-ul .mega-sub-menu {
+        top: 90px !important; }
+        .custom-section .megamenu-plugin__menu .mega-menu-wrap .mega-menu-horizontal .product-ul .mega-sub-menu li {
+          display: flex !important;
+          flex-direction: column;
+          align-items: center; }
+      .custom-section .megamenu-plugin__menu .mega-menu-wrap .mega-menu-horizontal .service-ul .mega-sub-menu {
+        top: 90px !important; }
+        .custom-section .megamenu-plugin__menu .mega-menu-wrap .mega-menu-horizontal .service-ul .mega-sub-menu .ul-item .mega-sub-menu {
+          top: 0 !important; }
+      .custom-section .megamenu-plugin__menu .mega-menu-wrap .mega-menu-horizontal li:not(:last-child) {
+        padding: 0px 20px 0px 0px; }
+      .custom-section .megamenu-plugin__menu .mega-menu-wrap .mega-menu-horizontal li a {
+        font-size: 18px !important;
+        line-height: 20px !important;
+        font-weight: 500 !important;
+        color: #000 !important;
+        height: unset !important; }
+        .custom-section .megamenu-plugin__menu .mega-menu-wrap .mega-menu-horizontal li a:hover {
+          background: unset !important;
+          height: unset !important; }
+
+/*# sourceMappingURL=megamenu-with-plugins.css.map */

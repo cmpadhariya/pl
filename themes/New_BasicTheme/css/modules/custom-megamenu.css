@@ -1,0 +1,77 @@
+.custom-section .custom-megamenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0px 0px 0px;
+  padding: 20px;
+  background: #f5f5f5;
+  position: relative;
+}
+.custom-section .custom-megamenu .logo a img {
+  width: 100%;
+  max-width: 150px;
+}
+.custom-section .custom-megamenu .menu .menu-custom-mega-menu-container ul {
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+}
+.custom-section .custom-megamenu .menu .menu-custom-mega-menu-container ul li a {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000;
+  padding: 10px 20px;
+}
+.custom-section .custom-megamenu .menu .menu-custom-mega-menu-container ul li a:hover {
+  background: #444;
+  transition-duration: 0.3s;
+  color: #fff;
+}
+.custom-section .custom-megamenu .menu .menu-custom-mega-menu-container ul #menu-item-43:hover .sub-menu {
+  display: flex;
+}
+.custom-section .custom-megamenu .menu .menu-custom-mega-menu-container ul #menu-item-43 .sub-menu {
+  position: absolute;
+  display: none;
+  width: 100%;
+  background: none repeat scroll 0 0 #888;
+  left: 0;
+  padding: 15px !important;
+  margin-top: 30px !important;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.custom-section .custom-megamenu .menu .menu-custom-mega-menu-container ul #menu-item-43 .megamenu-subtitle a {
+  padding: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  display: block;
+  color: #fff;
+}
+.custom-section .custom-megamenu .menu .menu-custom-mega-menu-container ul #menu-item-43 .megamenu-subtitle a:hover {
+  background: unset;
+  color: none;
+}
+.custom-section .custom-megamenu .menu .menu-custom-mega-menu-container ul #menu-item-43 .megamenu-subtitle .sub-menu {
+  flex-direction: column;
+  position: unset;
+  background: none;
+  align-items: flex-start;
+  padding: 0px !important;
+  margin-top: 0px !important;
+}
+.custom-section .custom-megamenu .menu .menu-custom-mega-menu-container ul #menu-item-43 .megamenu-subtitle .sub-menu .menu-item a {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 0px;
+  display: block;
+  padding: 3px 0px;
+}
+.custom-section .custom-megamenu .menu .menu-custom-mega-menu-container ul #menu-item-43 .megamenu-subtitle .sub-menu .menu-item a:hover {
+  transition: all 500ms;
+  color: #48ca95;
+}

@@ -1,0 +1,56 @@
+.custom-section .simple-slickslider {
+  margin: 30px 0px;
+}
+.custom-section .simple-slickslider ul li {
+  margin: 10px 0px;
+}
+.custom-section .simple-slickslider ul li .description {
+  display: flex;
+  align-items: baseline;
+}
+.custom-section .simple-slickslider ul li img {
+  padding: 10px 0px 0px 0px;
+}
+.custom-section .simple-slickslider ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .simple-slickslider ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000;
+  padding-left: 10px;
+}
+.custom-section .demo-slider {
+  margin: 50px 0px;
+}
+.custom-section .demo-slider__inner .box {
+  margin: 0 10px;
+}
+.custom-section .demo-slider__inner .slick-prev {
+  width: unset;
+  padding: 0;
+}
+.custom-section .demo-slider__inner .slick-prev::before {
+  content: "\f053";
+  font-family: fontawesome;
+  color: #fff;
+  background: #000;
+  padding: 8px 11px 6px 8px;
+  border-radius: 50%;
+}
+.custom-section .demo-slider__inner .slick-next {
+  width: unset;
+  padding: 0;
+}
+.custom-section .demo-slider__inner .slick-next::before {
+  content: "\f054";
+  font-family: fontawesome;
+  color: #fff;
+  background: #000;
+  padding: 8px 8px 6px 11px;
+  border-radius: 50%;
+}

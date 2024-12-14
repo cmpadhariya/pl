@@ -1,0 +1,66 @@
+.custom-section{
+    .custom-fields{
+        margin: 30px 0px;
+        ul{
+            li{
+                margin: 10px 0px;
+                .description{
+                    display: flex;
+                    align-items: baseline;
+                }
+                img{
+                    padding: 10px 0px 0px 0px;
+                }
+                a{
+                    padding-top: 10px;
+                    display: block;
+                }
+                h5{
+                    font-size: 18px;
+                    line-height: 24px;
+                    font-weight: 700;
+                    color: #000;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    color: #000;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    .demoheader{
+        padding: 30px 20px;
+        background: #f1f1f1;
+        margin: 50px 0px;
+        &__inner{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            &--logo{
+                img{
+                    width: 100%;
+                    max-width: 150px;
+                }
+            }
+            &--icon{
+                ul{
+                    display: flex;
+                    align-items: center;
+                    li:not(:last-child){
+                        padding-right: 30px; 
+                    }
+                    li{
+                        a{
+                            img{
+                                width: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

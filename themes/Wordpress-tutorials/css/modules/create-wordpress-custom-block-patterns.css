@@ -1,0 +1,26 @@
+.custom-section .custom-block-patterns {
+  margin: 30px 0px;
+}
+.custom-section .custom-block-patterns ul li {
+  margin: 10px 0px;
+}
+.custom-section .custom-block-patterns ul li .description {
+  display: flex;
+  align-items: baseline;
+}
+.custom-section .custom-block-patterns ul li img {
+  padding: 10px 0px 0px 0px;
+}
+.custom-section .custom-block-patterns ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .custom-block-patterns ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000;
+  padding-left: 10px;
+}

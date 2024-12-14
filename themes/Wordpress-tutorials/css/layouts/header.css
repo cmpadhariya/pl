@@ -1,0 +1,29 @@
+.header {
+  padding: 30px 0px;
+}
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__inner--logo a img {
+  width: 100%;
+  max-width: 150px;
+}
+.header__inner--menu .menu-header-menu-container ul {
+  display: flex;
+  align-items: center;
+}
+.header__inner--menu .menu-header-menu-container ul li:not(:last-child) {
+  padding: 0px 20px 0px 0px;
+}
+.header__inner--menu .menu-header-menu-container ul li a {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #000;
+}
+.header__inner--menu .menu-header-menu-container ul li a:hover {
+  transition: all 500ms;
+  color: #48ca95;
+}

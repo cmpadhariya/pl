@@ -1,0 +1,54 @@
+.custom-section .custom-testimonials {
+  margin: 30px 0px;
+}
+.custom-section .custom-testimonials ul li {
+  margin: 10px 0px;
+}
+.custom-section .custom-testimonials ul li .description {
+  display: flex;
+  align-items: baseline;
+}
+.custom-section .custom-testimonials ul li img {
+  padding: 10px 0px 0px 0px;
+}
+.custom-section .custom-testimonials ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .custom-testimonials ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000;
+  padding-left: 10px;
+}
+.custom-section .testimonials-demo__posts {
+  margin: 48px 0px 0px 0px;
+  padding: 0 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.custom-section .testimonials-demo__posts p {
+  font-size: 17px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  padding: 50px 0px 40px 0px;
+}
+.custom-section .testimonials-demo__posts a h4 {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+}
+.custom-section .testimonials-demo__posts span {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #838383;
+}

@@ -1,0 +1,28 @@
+.custom-section .tabs {
+  display: flex;
+  border: 1px solid #cecfd5;
+  border-radius: 5px;
+  margin: 50px 0px; }
+  .custom-section .tabs .tabs-nav .tab-active a {
+    color: #2db34a;
+    cursor: default;
+    background: #eaeaed; }
+  .custom-section .tabs .tabs-nav li {
+    margin: 15px 0px; }
+    .custom-section .tabs .tabs-nav li a {
+      font-size: 18px;
+      line-height: 26px;
+      font-weight: 500;
+      color: #000;
+      padding: 10px 20px;
+      border: 1px solid #cecfd5;
+      display: block; }
+  .custom-section .tabs .tabs-stage {
+    padding: 30px; }
+    .custom-section .tabs .tabs-stage .tab-content p {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #000; }
+
+/*# sourceMappingURL=vertical-tabs.css.map */

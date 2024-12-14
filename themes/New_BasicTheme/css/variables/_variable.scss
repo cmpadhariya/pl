@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@font-face{
+    font-family: 'Roboto', sans-serif;
+    src: url('/assets/fonts/Roboto-Regular.ttf');
+}
+@font-face{
+    font-family: Gilroy;
+    src: url('/assets/fonts/Gilroy-Medium.ttf');
+}
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700&display=swap');
+@font-face {
+    font-family: helvetica; 
+    src: url('/assets/fonts/HelveticaNeueBold.otf');
+}
+@font-face {
+    font-family: 'Montserrat', sans-serif; 
+    src: url('/assets/fonts/Montserrat-Regular.ttf');
+}
+
+
+
+
+// media screen
+
+// 4K
+@mixin max-3840 {
+    @media screen and (max-width:3840px) {
+        @content;
+    }
+}
+// 2K
+@mixin max-2560 { 
+    @media screen and (max-width:2560px) {
+        @content;
+    }
+}
+// FHD
+@mixin max-1920 {    
+    @media screen and (max-width:1920px) {
+        @content;
+    }
+}
+@mixin min-1440 {
+    @media screen and (min-width:1440px) {
+        @content;
+    }
+}
+// Desktop
+@mixin max-1366 {
+    @media screen and (max-width:1366px) {
+        @content;
+    }
+}
+@mixin max-1199 {
+    @media screen and (max-width:1199px) {
+        @content;
+    }
+}
+@mixin max-1024 {
+    @media screen and (max-width:1024px) {
+        @content;
+    }
+}
+@mixin max-991 {
+    @media screen and (max-width:991px) {
+        @content;
+    }
+}
+@mixin max-768 {
+    @media screen and (max-width:768px) {
+        @content;
+    }
+}
+@mixin max-767 {
+    @media screen and (max-width:767px) {
+        @content;
+    }
+}
+@mixin max-575 {
+    @media screen and (max-width:575px) {
+        @content;
+    }
+}
+@mixin max-425 {
+    @media screen and (max-width:425px) {
+        @content;
+    }
+}
+@mixin max-360 {
+    @media screen and (max-width:360px) {
+        @content;
+    }
+}
+@mixin max-320 {
+    @media screen and (max-width:320px) {
+        @content;
+    }
+}
+

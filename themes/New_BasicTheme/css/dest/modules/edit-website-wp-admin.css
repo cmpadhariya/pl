@@ -1,0 +1,24 @@
+.custom-section .add-css-customizer {
+  margin: 30px 0px; }
+  .custom-section .add-css-customizer ul li {
+    margin: 10px 0px; }
+    .custom-section .add-css-customizer ul li .description {
+      display: flex;
+      align-items: baseline; }
+    .custom-section .add-css-customizer ul li img {
+      padding: 10px 0px 0px 0px; }
+    .custom-section .add-css-customizer ul li h5 {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #000; }
+    .custom-section .add-css-customizer ul li p {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #000;
+      padding-left: 10px; }
+      .custom-section .add-css-customizer ul li p a {
+        color: #0099DD; }
+
+/*# sourceMappingURL=edit-website-wp-admin.css.map */

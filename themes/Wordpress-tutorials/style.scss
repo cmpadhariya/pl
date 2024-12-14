@@ -1,0 +1,232 @@
+/*
+    Theme Name: Wordpress Tutorials
+    Description: This is qrolic wordpress tutorials.
+    Author: Qrolic Technologies
+*/
+
+html {
+    margin-top: 0 !important;
+    scroll-behavior:  smooth;
+}
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+  
+img {
+    max-width: 100%;
+}
+  
+a:hover,
+a {
+    text-decoration: none !important;
+    outline: 0;
+}
+  
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+  
+::-moz-selection {
+    background: #05cbfc;
+    color: #fff;
+}
+  
+::selection {
+    background: #05cbfc;
+    color: #fff;
+}
+  
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+  
+ul {
+    margin: 0px !important;
+    padding: 0px !important;
+    list-style: none;
+}
+@import "./css/variables/_variable.scss";
+@import "./css/layouts/header.scss";
+
+/*
+    Theme Name: New Basictheme
+    Description: This is qrolic new basic theme.
+    Author: Qrolic Technologies
+    Text Domain: newbasictheme
+*/
+
+html {
+    margin-top: 0 !important;
+    scroll-behavior:  smooth;
+}
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+  
+img {
+    max-width: 100%;
+}
+  
+a:hover,
+a {
+    text-decoration: none !important;
+    outline: 0;
+}
+  
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+  
+::-moz-selection {
+    background: #05cbfc;
+    color: #fff;
+}
+  
+::selection {
+    background: #05cbfc;
+    color: #fff;
+}
+  
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+  
+ul {
+    margin: 0px !important;
+    padding: 0px !important;
+    list-style: none;
+}
+@import "./css/variables/_variable.scss";
+@import "./css/layouts/header.scss";
+
+.custom-section{
+    margin: 50px 0px;
+
+    .maintitle{
+        h1{
+            font-size: 40px;
+            line-height: 46px;
+            font-weight: 500;
+            color: #5F5E5E;
+            text-align: center;
+        }
+    }
+    &__inner{
+        padding: 50px 0px 0px 0px;
+
+        .main{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .main-box{
+                width: 100%;
+
+                h3{
+                    font-size: 30px;
+                    line-height: 36px;
+                    font-weight: 500;
+                    color: #000;
+                    text-align: center;
+                }
+                &__inner{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    padding: 20px 0px 50px 0px;
+                    .title{
+                    }
+                    .link{
+                        width: 100%;
+                        ul{
+                            padding: 0;
+                            li{
+                                padding: 15px 0px;
+                                position: relative;
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-around;
+                                flex-direction: column;
+                                .link-top{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: space-between;
+                                    width: 100%;
+                                    .view{
+                                        border: none;
+                                        outline: none;
+                                        font-size: 16px;
+                                        line-height: 16px;
+                                        font-weight: 400;
+                                        padding: 5px 10px;
+                                        color: #fff;
+                                        background: #0099DD;
+                                        border-radius: 5px;
+                                        &:hover{
+                                            background: #000;
+                                            transition: all 500ms;
+                                        }
+                                    }
+                                }
+                                p{
+                                    padding: 0px 0px;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    font-weight: 500;
+                                    color: #2F3D40;
+                                }
+                                .hide{
+                                    display: none;
+                                    padding: 10px 0px;
+                                }
+                                a{
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    font-weight: 400;
+                                    color: #0099DD;
+                                    &:hover + .hide{
+                                        display: block;
+                                        transition: all 500ms;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

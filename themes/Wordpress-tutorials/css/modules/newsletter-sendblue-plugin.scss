@@ -1,0 +1,85 @@
+.custom-section{
+    .newsletter-steps{
+        margin: 30px 0px;
+        ul{
+            li{
+                margin: 10px 0px;
+                .description{
+                    display: flex;
+                    align-items: baseline;
+                }
+                img{
+                    padding: 10px 0px 0px 0px;
+                }
+                h5{
+                    font-size: 18px;
+                    line-height: 24px;
+                    font-weight: 700;
+                    color: #000;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    color: #000;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    .newsletter-demo{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 10px;
+        padding: 20px 20px;
+        margin: 50px 0px;
+        h5{
+            font-size: 25px;
+            line-height: 31px;
+            font-weight: 500;
+            color: #4C5958;
+            text-align: center;
+
+            strong{
+                color: #10403B;
+            }
+        }
+        .sib_signup_form{
+            .sib_signup_box_inside_2{
+                .sib_msg_disp{
+                    margin: 20px 0px 0px 0px;
+                }
+                .sib-email-area{
+                    input{
+                        font-size: 16px;
+                        line-height: 22px;
+                        font-weight: 400;
+                        color: #000;
+                        padding: 20px 20px;
+                        border: none;
+                        outline: none;
+                        background: #F2F2F2;
+                        border-radius: 5px;
+                        width: 100%;
+                        margin: 20px 0px 20px 0px;
+                    }
+                }
+                p{
+                    .sib-default-btn{
+                        font-size: 16px;
+                        line-height: 22px;
+                        font-weight: 400;
+                        padding: 10px 30px;
+                        color: #fff;
+                        background: #0099DD;
+                        border-radius: 5px;
+                        border: none;
+                        &:hover{
+                            transition: all 500ms;
+                            background: #000;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

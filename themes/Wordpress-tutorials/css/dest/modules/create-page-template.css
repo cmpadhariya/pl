@@ -1,0 +1,25 @@
+.custom-section .create-page {
+  margin: 30px 0px; }
+  .custom-section .create-page ul li {
+    margin: 10px 0px; }
+    .custom-section .create-page ul li .description {
+      display: flex;
+      align-items: baseline; }
+    .custom-section .create-page ul li img {
+      padding: 10px 0px 0px 0px; }
+    .custom-section .create-page ul li a {
+      padding-top: 10px;
+      display: block; }
+    .custom-section .create-page ul li h5 {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #000; }
+    .custom-section .create-page ul li p {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #000;
+      padding-left: 10px; }
+
+/*# sourceMappingURL=create-page-template.css.map */

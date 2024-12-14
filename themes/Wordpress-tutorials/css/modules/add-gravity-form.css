@@ -1,0 +1,94 @@
+.custom-section .add-gravity-form {
+  margin: 30px 0px;
+}
+.custom-section .add-gravity-form ul li {
+  margin: 10px 0px;
+}
+.custom-section .add-gravity-form ul li .description {
+  display: flex;
+  align-items: baseline;
+}
+.custom-section .add-gravity-form ul li img {
+  padding: 10px 0px 0px 0px;
+}
+.custom-section .add-gravity-form ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .add-gravity-form ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000;
+  padding-left: 10px;
+}
+.custom-section .add-gravity-form ul li p a {
+  color: #0099DD;
+}
+.custom-section .gravity-form-demo {
+  margin: 50px 0px;
+}
+.custom-section .gravity-form-demo .gform_title {
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 500;
+  color: #5F5E5E;
+  text-align: center;
+}
+.custom-section .gravity-form-demo form {
+  padding-top: 40px;
+}
+.custom-section .gravity-form-demo form .gform_body .gfield .gfield_label {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #2F3D40;
+}
+.custom-section .gravity-form-demo form .gform_body .gfield #input_1_7_4_label {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #2F3D40;
+}
+.custom-section .gravity-form-demo form .gform_body .gfield #input_1_7_6 {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #5F5E5E;
+  padding: 12px 10px;
+  margin: 8px 0px 0px 0px;
+  border: 1px solid #5F5E5E;
+  border-radius: 5px;
+}
+.custom-section .gravity-form-demo form .gform_body .gfield .ginput_container input {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #5F5E5E;
+  padding: 15px 10px;
+  margin: 10px 0px 0px 0px;
+  border: 1px solid #5F5E5E;
+  border-radius: 5px;
+}
+.custom-section .gravity-form-demo form .gform_body .gfield #input_1_9 {
+  padding: 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border: none;
+}
+.custom-section .gravity-form-demo form .gform_button {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+  background: #0099DD;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.custom-section .gravity-form-demo form .gform_button:hover {
+  background: #000;
+  transition: all 500ms;
+}

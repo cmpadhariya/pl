@@ -1,0 +1,70 @@
+.wc-braintree-blocks-custom__form.bootstrap-md .row .col-md-3,
+.wc-braintree-blocks-custom__form.bootstrap-md .row .col-md-6 {
+  display: flex;
+  width: 100%;
+  flex: 0 0 auto;
+}
+.wc-braintree-blocks-custom__form.bootstrap-md .row .col-md-3 > *,
+.wc-braintree-blocks-custom__form.bootstrap-md .row .col-md-6 > * {
+  margin: 15px 0 0 15px;
+}
+.wc-braintree-blocks-custom__form .row {
+  display: flex;
+  margin: 15px 0 0 -15px;
+  flex-wrap: wrap;
+}
+.wc-braintree-blocks-custom__form .row .form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.wc-braintree-blocks-custom__form .row .cardnumber-form-group {
+  position: relative;
+}
+.wc-braintree-blocks-custom__form .row .cardnumber-form-group .braintree-web-hosted-field {
+  position: relative;
+}
+.wc-braintree-blocks-custom__form .row .cardnumber-form-group .wc-braintree-blocks-current-card__icon {
+  position: absolute;
+  right: 0;
+  max-width: 30px;
+  bottom: 13px;
+  margin-right: 10px;
+}
+.wc-braintree-blocks-custom__form .row .col-md-3,
+.wc-braintree-blocks-custom__form .row .col-md-6 {
+  display: flex;
+  width: 100%;
+  flex: 0 0 auto;
+}
+.wc-braintree-blocks-custom__form .row .col-md-3 > *,
+.wc-braintree-blocks-custom__form .row .col-md-6 > * {
+  margin: 15px 0 0 15px;
+}
+.wc-braintree-blocks-custom__form .row .form-group label {
+  font-weight: 600;
+}
+.wc-braintree-blocks-custom__form .row .form-group .bootstrap-input {
+  height: 45px;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  padding: 0 10px;
+}
+.wc-braintree-blocks-custom__form .row .form-group .bootstrap-input:not(.braintree-hosted-fields-invalid).braintree-hosted-fields-valid {
+  border: 1px solid #3c763d !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 1px rgba(60, 118, 61, 0.6);
+}
+.wc-braintree-blocks-custom__form .row .form-group .bootstrap-input.braintree-hosted-fields-invalid {
+  border: 1px solid #8a6d3b !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(138, 109, 59, 0.6) !important;
+}
+@media (min-width: 475px) {
+  .wc-braintree-blocks-custom__form .row .col-md-3 {
+    width: 25%;
+  }
+  .wc-braintree-blocks-custom__form .row .col-md-4 {
+    width: 33.3333333333%;
+  }
+  .wc-braintree-blocks-custom__form .row .col-md-6 {
+    width: 50%;
+  }
+}

@@ -1,0 +1,54 @@
+.custom-section .custom-fields {
+  margin: 30px 0px;
+}
+.custom-section .custom-fields ul li {
+  margin: 10px 0px;
+}
+.custom-section .custom-fields ul li .description {
+  display: flex;
+  align-items: baseline;
+}
+.custom-section .custom-fields ul li img {
+  padding: 10px 0px 0px 0px;
+}
+.custom-section .custom-fields ul li a {
+  padding-top: 10px;
+  display: block;
+}
+.custom-section .custom-fields ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .custom-fields ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000;
+  padding-left: 10px;
+}
+.custom-section .demoheader {
+  padding: 30px 20px;
+  background: #f1f1f1;
+  margin: 50px 0px;
+}
+.custom-section .demoheader__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.custom-section .demoheader__inner--logo img {
+  width: 100%;
+  max-width: 150px;
+}
+.custom-section .demoheader__inner--icon ul {
+  display: flex;
+  align-items: center;
+}
+.custom-section .demoheader__inner--icon ul li:not(:last-child) {
+  padding-right: 30px;
+}
+.custom-section .demoheader__inner--icon ul li a img {
+  width: 30px;
+}

@@ -1,0 +1,33 @@
+.custom-section .google-analytics {
+  margin: 30px 0px;
+}
+.custom-section .google-analytics ul li {
+  margin: 0px 0px 30px 0px;
+}
+.custom-section .google-analytics ul li .description {
+  display: flex;
+  align-items: baseline;
+}
+.custom-section .google-analytics ul li img {
+  padding: 10px 0px 0px 0px;
+}
+.custom-section .google-analytics ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .google-analytics ul li h6 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #5F5E5E;
+  padding-left: 10px;
+}
+.custom-section .google-analytics ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000;
+  padding: 5px 0px 0px 0px;
+}

@@ -1,0 +1,51 @@
+.custom-section .wordpress-site-live {
+  margin: 30px 0px; }
+  .custom-section .wordpress-site-live .first-ul li {
+    margin: 0px 0px 0px 0px; }
+    .custom-section .wordpress-site-live .first-ul li .description {
+      display: flex;
+      align-items: baseline; }
+    .custom-section .wordpress-site-live .first-ul li img {
+      padding: 10px 0px 0px 0px; }
+    .custom-section .wordpress-site-live .first-ul li h5 {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #000; }
+    .custom-section .wordpress-site-live .first-ul li h6 {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #5F5E5E;
+      padding-left: 10px; }
+    .custom-section .wordpress-site-live .first-ul li p {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #000;
+      padding: 5px 0px 0px 0px; }
+  .custom-section .wordpress-site-live .second-ul h3 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #5F5E5E;
+    padding: 50px 0px 20px 0px; }
+  .custom-section .wordpress-site-live .second-ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10px; }
+    .custom-section .wordpress-site-live .second-ul li p {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #000;
+      padding: 0px 0px 0px 0px; }
+    .custom-section .wordpress-site-live .second-ul li a {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #0099DD;
+      padding: 0px 0px 0px 0px; }
+
+/*# sourceMappingURL=how-to-wordpress-site-live.css.map */

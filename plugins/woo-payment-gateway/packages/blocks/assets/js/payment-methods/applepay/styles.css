@@ -1,0 +1,17 @@
+@supports (-webkit-appearance: -apple-pay-button) {
+  .wc-braintree-blocks-apple-pay__button {
+    -webkit-appearance: -apple-pay-button !important;
+    height: 40px;
+    width: 100%;
+  }
+  .wc-braintree-blocks-apple-pay__button.apple-pay-button-black {
+    -apple-pay-button-style: black;
+  }
+  .wc-braintree-blocks-apple-pay__button.apple-pay-button-white {
+    background: white !important;
+    -apple-pay-button-style: white;
+  }
+  .wc-braintree-blocks-apple-pay__button.apple-pay-button-white-with-line {
+    -apple-pay-button-style: white-outline;
+  }
+}

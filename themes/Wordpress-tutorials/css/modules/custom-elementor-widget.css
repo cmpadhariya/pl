@@ -1,0 +1,64 @@
+.custom-section .custom-elementor-widget {
+  margin: 30px 0px;
+}
+.custom-section .custom-elementor-widget ul li {
+  margin: 10px 0px;
+}
+.custom-section .custom-elementor-widget ul li .description {
+  display: flex;
+  align-items: baseline;
+}
+.custom-section .custom-elementor-widget ul li img {
+  padding: 10px 0px 0px 0px;
+}
+.custom-section .custom-elementor-widget ul li a {
+  padding-top: 10px;
+  display: block;
+}
+.custom-section .custom-elementor-widget ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .custom-elementor-widget ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000;
+  padding-left: 10px;
+}
+
+.elementor-339 .elementor-section .zigzag h2 {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 500;
+  font-family: DidotFont;
+  color: #000;
+  text-transform: uppercase;
+}
+.elementor-339 .elementor-section .zigzag p {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #000;
+  font-family: BkBtFont;
+  padding: 30px 0px 43px 0px;
+}
+.elementor-339 .elementor-section .zigzag a {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #fff;
+  font-family: MdBtFont;
+  padding: 15px 20px 15px 20px;
+  border-radius: 10px;
+  background: #0099DD;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.elementor-339 .elementor-section .zigzag a:hover {
+  background: #000;
+  transition: all 500ms;
+}

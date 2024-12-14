@@ -1,0 +1,40 @@
+.custom-section .facebook-pixel {
+  margin: 30px 0px;
+}
+.custom-section .facebook-pixel ul {
+  list-style: none;
+}
+.custom-section .facebook-pixel ul li {
+  margin: 0px 0px 15px 0px;
+}
+.custom-section .facebook-pixel ul li .description {
+  display: flex;
+  align-items: baseline;
+}
+.custom-section .facebook-pixel ul li img {
+  padding: 10px 0px 0px 0px;
+}
+.custom-section .facebook-pixel ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .facebook-pixel ul li h6 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #5F5E5E;
+  padding-left: 10px;
+}
+.custom-section .facebook-pixel ul li p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #000;
+  padding: 5px 0px 0px 0px;
+}
+.custom-section .facebook-pixel ul li p a {
+  color: #0099DD;
+  font-weight: 500;
+}

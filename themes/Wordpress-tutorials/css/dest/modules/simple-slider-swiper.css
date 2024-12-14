@@ -1,0 +1,33 @@
+.custom-section .simple-swiperslider {
+  margin: 30px 0px; }
+  .custom-section .simple-swiperslider ul li {
+    margin: 10px 0px; }
+    .custom-section .simple-swiperslider ul li .description {
+      display: flex;
+      align-items: baseline; }
+    .custom-section .simple-swiperslider ul li img {
+      padding: 10px 0px 0px 0px; }
+    .custom-section .simple-swiperslider ul li h5 {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 700;
+      color: #000; }
+    .custom-section .simple-swiperslider ul li p {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 400;
+      color: #000;
+      padding-left: 10px; }
+.custom-section .demo-swiperslider {
+  overflow: hidden;
+  margin: 50px 0px 0px 0px; }
+  .custom-section .demo-swiperslider .swiper-wrapper {
+    display: flex; }
+    .custom-section .demo-swiperslider .swiper-wrapper .box img {
+      width: 100%; }
+  .custom-section .demo-swiperslider .swiper-button-next, .custom-section .demo-swiperslider .swiper-button-prev {
+    margin-top: 0px;
+    color: #fff;
+    top: 48%; }
+
+/*# sourceMappingURL=simple-slider-swiper.css.map */

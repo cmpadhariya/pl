@@ -1,0 +1,66 @@
+.custom-section{
+    .option-page{
+        margin: 30px 0px;
+        ul{
+            li{
+                margin: 10px 0px;
+                .description{
+                    display: flex;
+                    align-items: baseline;
+                }
+                img{
+                    padding: 10px 0px 0px 0px;
+                }
+                a{
+                    padding-top: 10px;
+                    display: block;
+                }
+                h5{
+                    font-size: 18px;
+                    line-height: 24px;
+                    font-weight: 700;
+                    color: #000;
+                }
+                p{
+                    font-size: 16px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    color: #000;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    .option-zigzag{
+        margin: 50px 0px;
+        &-text{
+        h2{
+            font-size: 30px;
+            line-height: 36px;
+            font-weight: 700;
+            color: #2F3D40;
+        }
+        p{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            color: #000;
+            padding: 30px 0px 30px 0px;
+        }
+        a{
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 500;
+            color: #fff;
+            background: #000;
+            padding: 10px 25px;
+            display: block;
+            width: fit-content;
+            &:hover{
+                background: #0099DD;
+                transition: all 500ms;
+            }
+        }
+    }
+    }
+}

@@ -1,0 +1,29 @@
+.custom-section .plugin-steps {
+  margin: 30px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.custom-section .plugin-steps ul li {
+  margin: 20px 0px;
+}
+.custom-section .plugin-steps ul li .description {
+  display: flex;
+  align-items: baseline;
+}
+.custom-section .plugin-steps ul li h5 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+}
+.custom-section .plugin-steps ul li a {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #0099DD;
+}
+.custom-section .plugin-steps ul li a:hover {
+  transition: all 500ms;
+  color: #000;
+}
